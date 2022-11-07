@@ -79,6 +79,7 @@ public:
     }
 };
 
+//heapify
 void heapify(int arr[], int n, int i)
 {
     int largest = i;
@@ -97,6 +98,8 @@ void heapify(int arr[], int n, int i)
         heapify(arr, n, largest);
     }
 }
+
+//heapsort
 void heapSort(int arr[], int n)
 {
     int size = n;
